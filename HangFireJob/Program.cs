@@ -20,6 +20,7 @@ namespace HangFireJob
             mc.AddModule<JobTest1.JobTest>(InitializationMode.WhenAvailable);
 
             Console.ReadLine();
+			
         }
     }
 }
