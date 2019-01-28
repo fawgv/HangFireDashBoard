@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.136
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HangFireDashBord", "HangFireDashBord\HangFireDashBord.csproj", "{2BF59C29-B678-4FC7-9D6F-9F53BD7B81E8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HangFireDashBord", "HangFireDashBord\HangFireDashBord.csproj", "{2BF59C29-B678-4FC7-9D6F-9F53BD7B81E8}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HangFireJob", "HangFireJob\HangFireJob.csproj", "{2BC8AED1-FEDF-4471-A73D-92948B3613A9}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JobTest1", "JobTest1\JobTest1.csproj", "{9F1929C8-1ECC-4974-A986-CC4E56E6E318}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BootstrapperShell", "BootstrapperShell\BootstrapperShell.csproj", "{99C9E82C-C594-446D-AA59-8FFBC43AD226}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{9F1929C8-1ECC-4974-A986-CC4E56E6E318}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9F1929C8-1ECC-4974-A986-CC4E56E6E318}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9F1929C8-1ECC-4974-A986-CC4E56E6E318}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99C9E82C-C594-446D-AA59-8FFBC43AD226}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99C9E82C-C594-446D-AA59-8FFBC43AD226}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99C9E82C-C594-446D-AA59-8FFBC43AD226}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99C9E82C-C594-446D-AA59-8FFBC43AD226}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

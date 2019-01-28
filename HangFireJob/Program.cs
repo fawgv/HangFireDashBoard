@@ -12,12 +12,12 @@ namespace HangFireJob
     {
         static void Main(string[] args)
         {
-            GlobalConfiguration.Configuration.UseSqlServerStorage("Data Source=DESKTOP-6V4JBGP\\SQL2008;Initial Catalog=HangFireDashBoard;Integrated Security=True");
+            GlobalConfiguration.Configuration.UseSqlServerStorage("Server=(local);Database=HangFireDashBoard;Integrated Security=true;MultipleActiveResultSets=true");
             
             BackgroundJob.Enqueue(() => Console.WriteLine("Fire-and-forget"));
 
             var mc = new ModuleCatalog();
-            mc.AddModule<JobTest1.JobTest>(InitializationMode.WhenAvailable);
+            //mc.AddModule<JobTest1.JobTest>(InitializationMode.WhenAvailable);
 
             Console.ReadLine();
 			
